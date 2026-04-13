@@ -30,7 +30,7 @@ describe("EmployeeStatistics", () =>{
 
     //avg age
     test("getAverageAge test1-el", () => {
-        const employee = new EmployeeStatistics(test2)
+        const employee = new EmployeeStatistics(test1)
         expect(employee.getAverageAge()).toBe(30)
     })
 
